@@ -12,7 +12,7 @@ export default function Navigation() {
                 </Link>
 
                 <div className="w-full md:block md:w-auto" id="navbar-default">
-                    <ul className="flex flex-col p-4 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+                    <ul className="flex p-4 mt-4 rounded-lg  flex-row space-x-8 mt-0 text-sm font-medium ">
                         <li>
                             <Link href="/projects" className="block py-2 pl-3 pr-4 md:bg-transparent md:p-0  text-xl" aria-current="page">Projects</Link>
                         </li>
