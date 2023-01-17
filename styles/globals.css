@@ -15,9 +15,9 @@
     @apply text-lg;
   }
 
-  a {
+  /* a {
     @apply text-blue-600 underline;
-  }
+  } */
 }
 
 
@@ -28,7 +28,8 @@
 
   body {
     color: white;
-    background: rgb(19, 19, 19)
+    /* background: rgb(26, 26, 26) */
+    background: red;
   }
 }
 

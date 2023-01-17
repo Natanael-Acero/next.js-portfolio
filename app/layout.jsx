@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <title>Natanael Acero</title>
       <meta name="description" content="Natanael Acero's Portfolio" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <body className="bg-white text-black dark:bg-black dark:text-gray-200" >
+      <body className="bg-slate-100 text-gray-800 dark:bg-zinc-800 dark:text-gray-200" >
         <ThemeProvider attribute="class">
           <Navigation />
           {children}
