@@ -39,7 +39,7 @@ export const info = {
         },
 
         {
-            position: "MERN Stack Developer",
+            position: "MEAN Stack Developer",
             company: "Universidad Tecnológica de Aguascalientes",
             location: "Aguascalientes, México",
             startDate: "Aug 2020",
