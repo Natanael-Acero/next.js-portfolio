@@ -6,7 +6,7 @@ export default function Footer({ socialMedia }) {
             <p className="dark:text-light text-right my-8 text-lg">
                 Developed by <strong>Natanael Acero</strong>.
             </p>
-            <div className="grid grid-cols-5 gap-4">
+            <div className="grid grid-cols-3 gap-10">
                 <a
                     aria-label="Social Media"
                     href={socialMedia.github}

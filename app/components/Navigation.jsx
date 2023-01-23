@@ -3,9 +3,15 @@ import { useTheme } from "next-themes";
 
 export default function Navigation() {
     const { theme, setTheme } = useTheme()
+
+    const CVUrl = 'https://drive.google.com/file/d/1KaMlMpUjbB9aLoTKiHA5FbbPLLJ3wyHT/view?usp=sharing';
+
+    const handleDownloadCV = () => {
+        console.log("Download CV")
+    }
     return (
         <nav className="px-2 sm:px-4 py-2.5 rounded ">
-            <div className="container flex flex-wrap items-center justify-between mx-auto">
+            <div className="container flex   items-center justify-between ">
                 <Link href="/" className="flex items-center" >
                     <img src="https://ucarecdn.com/99abb6d2-48e5-46ff-93e7-5b315acd7ccb/" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-3xl">NA.</span>
@@ -29,6 +35,14 @@ export default function Navigation() {
                                     </svg>
                                 }
                             </button>
+                        </li>
+                        <li>
+                            <a href={CVUrl} target="_blank" className="block py-2 pl-3 pr-4  md:bg-transparent md:p-0  text-xl" aria-current="page">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>
+
+                            </a>
                         </li>
                     </ul>
                 </div>

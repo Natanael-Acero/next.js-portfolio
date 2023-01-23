@@ -57,37 +57,39 @@ export const info = {
 
     education: [
         {
-            name: "Universidad Tecnológica de Aguascalientes",
+            institution: "Universidad Tecnológica de Aguascalientes",
             location: "Aguascalientes, México",
             startDate: "2020",
             endDate: "2022",
-            description: ["Software Development and Management Engineer"],
+            title: "Software Development and Management Engineer",
         },
         {
-            name: "Universidad Tecnológica de Aguascalientes",
+            institution: "Universidad Tecnológica de Aguascalientes",
             location: "Aguascalientes, México",
             startDate: "2018",
             endDate: "2020",
-            description: ["Information Technologies Associate Degree"],
+            title: "Information Technologies Associate Degree"
         },
         {
-            name: "Universidad Tecnológica de Aguascalientes",
+            institution: "Universidad Tecnológica de Aguascalientes",
             location: "Aguascalientes, México",
             startDate: "Jan 2020",
             endDate: "Jan 2020",
-            description: ["SCRUM Course"],
+            title: "SCRUM Course"
         },
         {
-            name: "Universidad Tecnológica de Aguascalientes",
+            institution: "Universidad Tecnológica de Aguascalientes",
             location: "Aguascalientes, México",
             startDate: "Nov 2019",
             endDate: "Dec 2019",
-            description: ["Git Course"],
+            title: "Git Course"
         },
     ],
 
     skills: [
-        'Javascript', 'React', 'React Native', 'Node.js', 'MongoDB', 'Express', 'Angular', 'Ionic', 'Tailwind CSS', 'HTML', 'CSS', 'Git', 'SCRUM'
+        ['Javascript', 'HTML', 'CSS', 'React', 'Jest'],
+        ['Angular', 'NodeJS', 'Ionic', 'Express', 'Testing library', 'SCRUM'],
+        ['Storybook', 'MongoDB', 'Teamwork', 'Growth mindset', 'Adaptability']
     ],
 
     socialMedia: {
@@ -98,11 +100,11 @@ export const info = {
 
     projects: [
         {
-            title: "Astro Portfolio",
-            isFeatured: true,
-            thumbnail: "/assets/images/astro-portfolio.png",
-            githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-            liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+            title: "Next.js Portfolio",
+            isFeatured: false,
+            thumbnail: "/images/next-portfolio.png",
+            githubUrl: "https://github.com/Natanael-Acero/Next-Portfolio",
+            liveUrl: "https://www.nataav.dev/",
         },
     ],
 };

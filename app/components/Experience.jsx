@@ -10,7 +10,7 @@ export default function Experience({ experience }) {
                     experience.map((experience) => (
                         <div className="my-16">
                             <div className="flex justify-between items-center flex-wrap">
-                                <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500"><strong className="font-bolder text-lg">{experience.position}</strong> at {experience.company}</p>
+                                <p className="text-transparent main-titles"><strong className="font-bolder text-lg">{experience.position}</strong> at {experience.company}</p>
                                 <p className="text-sm dark:text-gray">
                                     {experience.startDate} - {experience.endDate}
                                 </p>
