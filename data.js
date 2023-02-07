@@ -100,11 +100,18 @@ export const info = {
 
     projects: [
         {
-            title: "Next.js Portfolio",
+            title: "My portfolio, made with Next.js and TailwindCSS.",
             isFeatured: false,
             thumbnail: "/images/next-portfolio.png",
             githubUrl: "https://github.com/Natanael-Acero/Next-Portfolio",
             liveUrl: "https://www.nataav.dev/",
+        },
+        {
+            title: "StartupMate, made with with Remix, DaisyUI and OpenAI api.",
+            isFeatured: true,
+            thumbnail: "/images/startupmate.png",
+            githubUrl: "https://github.com/alexhmdev/startupmate",
+            liveUrl: "https://startupmate.vercel.app/",
         },
     ],
 };
