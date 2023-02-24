@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 export default function Navigation() {
     const { theme, setTheme } = useTheme()
 
-    const CVUrl = 'https://drive.google.com/file/d/1KaMlMpUjbB9aLoTKiHA5FbbPLLJ3wyHT/view?usp=sharing';
+    const CVUrl = 'https://drive.google.com/file/d/1VuQ6dejoDyHK2krTRpoyRoDl7IxGh0YA/view?usp=share_link';
 
     const handleDownloadCV = () => {
         console.log("Download CV")

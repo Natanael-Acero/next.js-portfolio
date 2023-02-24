@@ -1,7 +1,7 @@
 export const info = {
     baseUrl: "https://nataav.dev",
     name: "Natanael Acero",
-    jobDescription: "Javascript Developer",
+    jobDescription: "Full Stack Developer",
     about: `I'm a software developer based in Aguascalientes, México.
     I have +2 years of experience working with Javascript technologies like Angular, Ionic, Node.js, MongoDB, Express.
     Yet, I learn continuously and never stop exploring new technologies.
